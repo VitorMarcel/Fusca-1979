@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background: url(../img/fuscareta.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+}
+.img-logo {
+    width: 20%;
+}
+.tl {
+    margin: 0 100px;
+    font-size: 30px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 150px;
+}
+.fuscacapa {
+    width: 30%;
+}
+.paragrafo1 {
+    margin: 0 0 0 80px;
+    text-align: justify;
+}
+.t1 {
+    margin-bottom: 20px;
+}
+
+.img {
+    background: url(../img/fuscajato.jpg) no-repeat;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.paragrafo2 {
+    margin: 0 80px 0 0;
+    text-align: justify;
+}
+
+.ficha-tecnica {
+    margin: 150px;
+}
+.espec {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #000;
+}
+
+#contador {
+    color: #fff;
+    font-size: 32px;
+    padding-top: 30px;
+}
